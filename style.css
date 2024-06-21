@@ -1,0 +1,610 @@
+
+ 
+ .body{
+    margin: 40px 80px;
+
+};
+.head-container{
+    width: 100%;
+} 
+
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    
+    
+};
+
+.logo{
+        
+    
+}
+
+.home-cart{
+    display: flex;
+    padding: 0px 15px;
+    align-items: center;
+}
+.home-cart a{
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 2000px;
+
+}
+.search-container{
+    display: flex;
+    border: 1px solid white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+ 
+.search-container input{
+    border: none;
+
+}
+.cart-count{
+    background-color: orange;
+    border-radius: 50%;
+    position: absolute;
+    right: 5px;
+
+    
+    
+   
+
+};
+.cart-button{
+   background-color: white;
+}
+.divider{
+    border-left: 1px solid black;
+    margin: 15px;
+}
+.div-title h1{
+    font-size: 50px;
+    
+}
+.bike-delivary{
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    margin: 30px 0px;
+    height:fit-content ;
+    width: fit-content;
+    padding: 5px ;
+    padding-left: 20px;
+    border: 1px solid white;
+    background-color:#F5DDC4;
+    border-radius: 40px;
+}
+.bike-delivary p{
+    
+    margin: 0px 0px;
+    padding-top: 7px;
+    color: orange;
+  
+    
+}
+.bike-image{
+    border-radius: 100%;
+    
+    
+};
+
+.bike-delivary img{
+    border-radius: 100%;
+    height: 30px;
+    width: 40px;
+    
+    
+    
+    
+}
+.start{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.start-menu{
+
+    border: 1px solid white;
+    border-radius: 15%;
+    height: 185px;
+    width: 160px;
+    box-shadow: 0px 0px 31px 0px #0000000D;
+
+}
+.start-menu img{
+
+   
+    position: absolute;
+    width: 140%;
+    left: -30px;
+    top: -80px;
+    margin-bottom: 0px;
+    
+  
+
+}
+.start-menu h2
+{
+    
+    /* 
+    align-items: center;
+    padding-left: 23px;
+     */
+    padding-top: 70px;
+    text-align: center;
+    margin-bottom: 0px;
+    
+}
+.menu-des{
+   margin:  6px 0px 0px 0px ;
+    font-size: small;
+    /*  */
+    text-align: center;
+    
+}
+.order{
+    display: flex;
+    gap: 30px;
+
+    
+}
+.order p{
+    font-weight: bolder ;
+    padding-top: 5px;
+    font-size: 16px;
+    
+}
+.order-button-container{
+    
+    /* background-color: green; */
+    padding-top:8px ;
+    
+}
+.order-button{
+    border: none;
+    color: white;
+    height: 40px;
+    width: 130px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #EFAB68 0%, #F48E28 100%);
+
+    
+}
+.round-circle{
+ 
+    background-color: white;
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    box-shadow: 0px 0px 25px 0px #83A5FF40;
+    position: relative;
+
+}
+.round-circle img{
+     
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    top: 14px;
+    left: 18px;
+    
+}
+.round-cirlce p{
+    font-weight: bolder;
+}
+.dollar{
+    margin-top: 6px;
+   text-align: center;
+    font-weight: bolder;
+}
+.first-pair{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.second-pair{
+    display: flex;
+    gap: 20px;
+}
+
+
+.contact-container{
+    margin: 50px 50px;
+    padding: 30px 30px;
+    box-shadow: 0px 0px 50px 0px #0000000D;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;
+
+}
+
+.contact-cart{
+    text-align: center;
+}
+.contact-cart h1{
+    margin: 5px;
+}
+.contact-cart p{
+    margin-top: 2px;
+}
+.contact-border{
+    
+    border: 1px solid #B6B6B6
+
+}
+
+.popular-item-container{
+    margin: 100px 90px;
+}
+.popular-title{
+    text-align: center;
+}
+.popular-title span{
+    margin-bottom: 3px;
+}
+.popular-title h2{
+    margin-top: 3px;
+}
+.first-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.second-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.item{
+    height: 280px;
+    width: 250px;
+    background-color:white;
+    border-radius: 17px;
+    box-shadow: 0px 2px 30px 0px #0000001A;
+    
+
+}
+.item img{
+    border-top-left-radius: 17px ;
+    border-top-right-radius: 17px;
+    width: 100%;
+
+}
+.item h3{
+    padding-left: 10px;
+    margin: 5px ;
+    
+}
+.rating
+{
+    font-size: 9px;
+    
+}
+.star{
+
+    font-size: 10px;
+    padding-left: 60px;
+    color: #F48E28;
+    
+}
+.add-to-cart{
+ 
+ margin: 20px 0px;
+ margin-left: 15px;
+    
+    
+    
+    
+    
+}
+.add-to-cart span{
+    margin-top: 01px;
+    
+    margin-left: 60px;
+}
+.add-to-cart button{
+    height: 32px;
+    width: 50%;
+    border-radius: 80px;
+    background-color: orange;
+    border: none;
+    font-size: 11px;
+    color: white;
+    font-weight: bolder;
+    
+    
+}
+.see-more-div{
+    text-align: center;
+    
+}
+.see-more-button{
+  height: 50px;
+  width: 200px;
+  border-radius: 30px;
+  background-color: orange;
+  border: none;
+  color: white;
+  
+
+}
+.see-icon{
+    margin-left: 5px;
+    padding-left: 20px;
+    border: 1px solid black;
+    border-radius: 100%;
+    height: 1px;
+    width: 1px;
+    padding: 1px 3px;
+    color: black;
+    
+  
+}
+
+.services-container{
+    margin: 50px 90px;
+}
+.service-title{
+    text-align: center;
+}
+.service-title p{
+    margin-bottom: 3px;
+    color: orange;
+}
+.service-title h2{
+    margin-top: 3px;
+   
+}
+.service-cart{
+    height: 240px;
+    width: 238px;
+    border-radius: 17px;
+    background-color: white;
+    position: relative;
+    border: 1px solid #B6B6B6
+}
+.service-image{
+    height: 50px;
+    width: 50px;
+   
+    border-radius: 100%;
+    background-color:white;
+    position: absolute;
+    top: 50px;
+    left: 95px;
+    
+}
+.service-cart img{
+   
+    width: 60%;
+    position: absolute;
+    left: 10px;
+    top: 7px;   
+}
+.service-cart h3{
+    padding: 90px 0px 50px 50px ;
+    margin-bottom: 0px;
+}
+.service-cart p {
+    
+    margin-top: -30px;
+    padding-top: -20px;
+    font-size: 10px;
+    text-align: center;
+    
+}
+.service-carts{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.client-title{
+    text-align: center;
+}
+.client-title p{
+    margin-bottom: 4px;
+    color: orange;
+}
+.client-title h2{
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.review-pic{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.review{
+    height: 250px;
+    width: 400px;
+    background-color:white;
+    box-shadow: 0px 0px 50px 0px #0000001A;
+    border-radius: 20px;
+
+}
+.review-pic img{
+    width: 400px;
+    height: 250px;
+}
+.client-profile{
+    display: flex;
+    
+    
+}
+.client-des{
+    padding-top: 37px;
+}
+.client-profile h5{
+    margin-bottom: 2px;
+}
+.client-profile p{
+    margin-top: 0px;
+    font-size: 9px;
+
+}
+.client-img img{
+    height: 50px;
+    width: 50px;
+    padding-left: 150px;
+    padding-top: 50px;
+
+}
+.client-speech {
+    text-align: center;
+}
+.client-speech p{
+    font-size: 13px;
+}
+.subscribe-container{
+    margin-left: 170px;
+    margin-top: 30px ;
+    height: 250px;
+    width: 900px;
+    background-color: black;
+    border-radius: 30px;
+    display: flex;
+   gap: 200px;
+    
+}
+.subscribe-container img{
+    padding-left: 130px;
+    padding-top: 30px;
+    width: 50%;
+    height: 200px;
+    width: 200px;
+}
+.subscribe-des{
+    color: white;
+    margin-top: 50px;
+}
+.subscribe-des h3{
+    margin-bottom: 5px;
+}
+.subscribe-des p{
+    margin-top: 2px;
+    font-size: 10px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.subscribe-form{
+    background-color:white;
+    height: 35px;
+    width: 250px;
+    border-radius: 8px;
+    
+
+}
+.input{
+    border: none;
+    height: 30px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    
+}
+.subscribe-form button{
+    height: 30px;
+   border: none;
+    border-radius: 8px;
+    font-size: 10px;
+    background-color: orange;
+    
+}
+.subcribe-form  span{
+    font-size: 1px;
+    margin: 0px 0px;
+}
+
+
+.footer-container{
+
+    margin-top: 70px;
+    margin-left: -70px;
+    margin-right: -80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    background: #FAFAFF;
+    padding: 0px 50px;
+    height: 300px;
+
+}
+.first p{
+    color: #B6B6B6;
+    
+
+    
+}
+.second{
+    padding-top:20px;
+}
+.second h3{
+    padding-bottom: 15px;
+}
+.second p{
+    line-height: 25px;
+    color: #B6B6B6;
+}
+
+.first span{
+
+    padding-right:10px;
+}
+.first img{
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
